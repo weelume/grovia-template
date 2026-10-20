@@ -1,0 +1,224 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "version": "1.0.0",
+  "id": "grovia",
+  "gitUrl": "https://github.com/weelume/grovia-template",
+  "name": "Grovia · 团队增长",
+  "localizedNames": {
+    "en": "Grovia · Strategy & growth"
+  },
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "暖灰黑黄",
+    "玻璃质感",
+    "团队协作",
+    "PC / iPad / H5",
+    "Framer Motion",
+    "中英文官网"
+  ],
+  "summary": "参考 Grovia 的中英文团队增长与战略咨询官网。完整包含首页、关于、六篇客户案例与设计系统；提供功能标签、套餐切换、FAQ、联系与订阅演示。采用本地素材、MiSans / Poppins 字体和玻璃卡片，适配 PC、iPad 与 H5，支持三端独立交互预览。",
+  "accentColor": "#c4ac57",
+  "cover": "assets/home.webp",
+  "screenshots": [
+    {
+      "src": "assets/home.webp",
+      "alt": "PC 首页：暖灰首屏与双语团队看板",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/features.webp",
+      "alt": "PC 功能区：玻璃客户门户与功能标签",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/cases.webp",
+      "alt": "PC 案例列表：六篇完整客户故事",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "case-studies"
+    },
+    {
+      "src": "assets/contact.webp",
+      "alt": "PC 联系区：深色玻璃表单",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "iPad 首页：双列布局与折叠导航",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-features.webp",
+      "alt": "iPad 功能区：平板标签与协作看板",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-cases.webp",
+      "alt": "iPad 案例：双列图文卡片",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "case-studies"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "iPad 联系区：可操作的本地校验表单",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "H5 首页：单列首屏与浮动看板",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-features.webp",
+      "alt": "H5 功能区：触控标签与单列卡片",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-cases.webp",
+      "alt": "H5 案例列表：手机图文布局",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "case-studies"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "H5 联系区：手机表单与触控操作",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "增长咨询官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于我们",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "case-studies",
+          "title": "客户案例",
+          "localizedTitles": {
+            "en": "Case studies"
+          }
+        },
+        {
+          "slug": "case-studies/pluto",
+          "title": "Pluto 案例",
+          "localizedTitles": {
+            "en": "Pluto"
+          }
+        },
+        {
+          "slug": "case-studies/vitahealth",
+          "title": "VitaHealth 案例",
+          "localizedTitles": {
+            "en": "VitaHealth"
+          }
+        },
+        {
+          "slug": "case-studies/boxmedia",
+          "title": "BoxMedia 案例",
+          "localizedTitles": {
+            "en": "BoxMedia"
+          }
+        },
+        {
+          "slug": "case-studies/novatech",
+          "title": "NovaTech 案例",
+          "localizedTitles": {
+            "en": "NovaTech"
+          }
+        },
+        {
+          "slug": "case-studies/naviai",
+          "title": "NaviAI 案例",
+          "localizedTitles": {
+            "en": "NaviAI"
+          }
+        },
+        {
+          "slug": "case-studies/lumora",
+          "title": "Lumora 案例",
+          "localizedTitles": {
+            "en": "Lumora"
+          }
+        },
+        {
+          "slug": "design-system",
+          "title": "设计系统",
+          "localizedTitles": {
+            "en": "Design system"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考素材授权待确认，仅供效果评审。",
+    "redistributionAllowed": false
+  }
+}

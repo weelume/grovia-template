@@ -1,0 +1,84 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-20T10:49:49.058Z",
+  "sourceCommit": null,
+  "sourceDigest": "64851e619c8fcee484b56fd503f5802ff8a67e7d10d85570a89921136dcd4422",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "node": "22.13.1",
+    "packageManager": "pnpm@12.10.1",
+    "cleanDirectory": true,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "status": "passed",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "startedAt": "2026-10-20T10:46:40.823Z",
+      "finishedAt": "2026-10-20T10:46:42.541Z",
+      "exitCode": 0
+    },
+    {
+      "id": "lint",
+      "status": "passed",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "startedAt": "2026-10-20T10:46:42.550Z",
+      "finishedAt": "2026-10-20T10:46:46.048Z",
+      "exitCode": 0
+    },
+    {
+      "id": "test",
+      "status": "passed",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "startedAt": "2026-10-20T10:46:46.058Z",
+      "finishedAt": "2026-10-20T10:46:46.332Z",
+      "exitCode": 0
+    },
+    {
+      "id": "build",
+      "status": "passed",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-10-20T10:46:46.341Z",
+      "finishedAt": "2026-10-20T10:47:07.426Z",
+      "exitCode": 0
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-20T10:49:01.512Z"
+    }
+  ],
+  "limitations": [
+    "本地新建独立工程，未进行独立克隆；未提交、未推送、未部署。",
+    "图片及正文再分发授权待核实。",
+    "全站 80 组合检查后，最终首屏修改另行通过 8 个首页双语视口组合及 7 项交互回归。"
+  ]
+}
